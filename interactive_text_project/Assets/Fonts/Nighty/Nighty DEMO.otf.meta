@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 51bc35ac4113e2449a3b7daa9ae797bc
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Nighty DEMO
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2c6d9e588ca26d14eb8af058dd045d3e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
