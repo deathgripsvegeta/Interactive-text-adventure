@@ -318,8 +318,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: 29}
-  m_SizeDelta: {x: 288.25, y: 76.334}
+  m_AnchoredPosition: {x: 1.5773, y: -1.5301}
+  m_SizeDelta: {x: 339.0988, y: 137.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090179682
 MonoBehaviour:
@@ -341,8 +341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You\u2019re in your room and you found a tamagotchi that you don\u2019t
-    remember having."
+  m_text: sample text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 011ca51ee323585418a8146653116c8a, type: 2}
   m_sharedMaterial: {fileID: 343111404644238490, guid: 011ca51ee323585418a8146653116c8a, type: 2}
@@ -405,7 +404,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -49.12323, y: 5.7792053, z: 0, w: -78.019226}
+  m_margin: {x: 2.1376953, y: 5.7792053, z: 4.2717285, w: 5.28006}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -454,8 +453,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00001812, y: 23}
-  m_SizeDelta: {x: 432.9536, y: 105.7752}
+  m_AnchoredPosition: {x: -0.00098228, y: 0.00014734}
+  m_SizeDelta: {x: 472.76, y: 178.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355324104
 MonoBehaviour:
@@ -477,8 +476,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "It used to be haunted but now the two have become one, it fed on the tamagotchi
-    that lived there, now it is the tamagotchi, it needs to feed\r.\n"
+  m_text: 'sample text
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 011ca51ee323585418a8146653116c8a, type: 2}
   m_sharedMaterial: {fileID: 343111404644238490, guid: 011ca51ee323585418a8146653116c8a, type: 2}
@@ -541,7 +541,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 2.889618, z: 0, w: -75.1296}
+  m_margin: {x: 10.679504, y: 11.433151, z: 10.67926, w: -4.6455765}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -880,3 +880,49 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &2003532136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003532138}
+  - component: {fileID: 2003532137}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2003532137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003532136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9bf05440cb1f14093efe2f881bf0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 0}
+  startingState: {fileID: 11400000, guid: d18f81c653c285d4097c351756e3532b, type: 2}
+--- !u!4 &2003532138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003532136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 484.0673, y: 208.35493, z: -7.780901}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
