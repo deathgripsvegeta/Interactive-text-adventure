@@ -8,7 +8,7 @@ using TMPro;
 public class AdventureGame : MonoBehaviour
 {
 
-    [SerializeField] Text textComponent;
+    [SerializeField] TextMeshProUGUI textComponent;
     [SerializeField] State startingState;
 
     State state;

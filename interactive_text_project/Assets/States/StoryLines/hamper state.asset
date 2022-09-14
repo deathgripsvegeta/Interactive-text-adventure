@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10ba65f01111a2f4faa14ad527ddc141, type: 3}
-  m_Name: New State
+  m_Name: hamper state
   m_EditorClassIdentifier: 
   storyText: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: d18f81c653c285d4097c351756e3532b, type: 2}
