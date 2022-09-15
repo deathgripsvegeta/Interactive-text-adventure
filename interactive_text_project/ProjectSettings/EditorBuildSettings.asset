@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 4dceae0e017b3cb47afccef81310425a
+  - enabled: 1
+    path: Assets/Scenes/game over no hide.unity
+    guid: 2cf34f8bd43d2e442b873872325754eb
+  - enabled: 1
+    path: Assets/Scenes/HamperScene.unity
+    guid: fac5e4bb0e5133843b5c9a13220dac3e
+  - enabled: 1
+    path: Assets/Scenes/BalconyScene.unity
+    guid: f5d52fdacb7e91346a63a0994bdfe2a7
   m_configObjects: {}
