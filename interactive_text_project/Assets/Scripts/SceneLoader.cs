@@ -27,6 +27,30 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(5);
     
     }
+    public void LeaveScene()
+    {
+        SceneManager.LoadScene(6);
+    }
+    public void GameOverLeaveAgain()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void LeftToBalcony()
+    {
+        SceneManager.LoadScene(8);
+    }
+    public void ClosetScene()
+    {
+        SceneManager.LoadScene(9);
+    }
+    public void JumpScene()
+    {
+        SceneManager.LoadScene(10);
+    }
+    public void ShesStillThere()
+    {
+        SceneManager.LoadScene(11);
+    }
 
     public void QuitGame()
     {
