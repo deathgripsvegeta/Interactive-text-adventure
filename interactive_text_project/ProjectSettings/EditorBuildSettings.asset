@@ -41,4 +41,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/She'sStillThere.unity
     guid: 89e86570f3d47dc41a491dd94c29b205
+  - enabled: 1
+    path: Assets/Scenes/GrabWeaponScene.unity
+    guid: 6aec04385b6a1224ca96723ffb337bdf
+  - enabled: 1
+    path: Assets/Scenes/HaelAppears.unity
+    guid: b18c0cb9ac63b414099fd449eab0226c
+  - enabled: 1
+    path: Assets/Scenes/HAMPER.unity
+    guid: d78d7fc5736d5d145b606fcd3a788c7a
+  - enabled: 1
+    path: Assets/Scenes/WhackHer.unity
+    guid: e14abb6b04b816b439a4a3259bcff18d
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: e865800772f9d2f458eb1bacff3cf7d0
   m_configObjects: {}
