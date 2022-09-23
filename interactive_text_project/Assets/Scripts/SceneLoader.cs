@@ -51,6 +51,26 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(11);
     }
+    public void GrabWeaponScene()
+    {
+        SceneManager.LoadScene(12);
+    }
+    public void HaelAppears()
+    {
+        SceneManager.LoadScene(13);
+    }
+    public void HAMPER()
+    {
+        SceneManager.LoadScene(14);
+    }
+    public void WhackHer()
+    {
+        SceneManager.LoadScene(15);
+    }
+    public void WinScene()
+    {
+        SceneManager.LoadScene(16);
+    }
 
     public void QuitGame()
     {
